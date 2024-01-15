@@ -1,0 +1,8 @@
+pandas
+numpy
+seaborn
+
+# connecting to setup.py
+# we can directly install setup.py or we can run it while running requirements.txt
+# to enable that
+-e .

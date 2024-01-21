@@ -1,6 +1,10 @@
 pandas
 numpy
 seaborn
+matplotlib
+scikit-learn
+catboost
+xgboost
 
 # connecting to setup.py
 # we can directly install setup.py or we can run it while running requirements.txt

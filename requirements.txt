@@ -5,6 +5,7 @@ matplotlib
 scikit-learn
 catboost
 xgboost
+dill
 
 # connecting to setup.py
 # we can directly install setup.py or we can run it while running requirements.txt

@@ -52,7 +52,7 @@ class DataTransformation:
             num_pipeline = Pipeline(
                 steps = [
                     ("imputer", SimpleImputer(strategy = "median")), 
-                    # (1) we are imputing the median values wherever we have mkissing values
+                    # (1) we are imputing the median values wherever we have missing values
                     ("scaler", StandardScaler())
                     # (2) doing the standard scaler
                 ]
@@ -89,7 +89,7 @@ class DataTransformation:
             train_df = pd.read_csv(train_path)
             test_df = pd.read_csv(test_path)
 
-            logging.info("Read train and test data completed")
+            logging.info("Reading train and test data completed")
 
             logging.info("getting preprocessing object")
 
